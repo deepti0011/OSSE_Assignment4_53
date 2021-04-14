@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo Welcome to Assignment 4 members Virat , Vikash , Deepti & Vinod!
+        run: echo Welcome to the team Virat, Vikash, Deepti and Vinod! 
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
