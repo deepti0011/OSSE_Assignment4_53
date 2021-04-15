@@ -29,7 +29,7 @@ public class Cryptography {
      */
     public String rotate(String word) {
         String rotatedWord = "";
-        for(int i = 0; i < word.length; i++) {
+        for(int i = 0; i < word.length(); i++) {
             rotatedWord += rotateLetter(rotatedWord.charAt(i));
         }
         return rotatedWord;
@@ -57,7 +57,7 @@ public class Cryptography {
      */
     public String unrotate(String word) {
         String unrotatedWord = "";
-        for(int i = 0; i < word.length; i++) {
+        for(int i = 0; i < word.length(); i++) {
             unrotatedWord += unrotateLetter(unrotatedWord.charAt(i));
         }
         return unrotatedWord;
