@@ -1,5 +1,5 @@
 # A simple reverse cipher program
-# Annamalai Nagappan Wed 22,2014 11.20PM
+# Deepti Sharma 17th April , 2021 7:38 PM
 
 message=raw_input("Enter the message to reverse ciphered")
 print "The original message is ",message
